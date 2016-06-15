@@ -7,6 +7,7 @@ const { div } = dom;
 const Arrow = React.createFactory(require("./util/Arrow"));
 
 require("./Accordion.css");
+require("devtools-foo/client/shared/components/reps/reps.css")
 
 const Accordion = React.createClass({
   propTypes: {

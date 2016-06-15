@@ -13,7 +13,7 @@ let config = {
   },
   resolve: {
     alias: {
-      "devtools": path.join(__dirname, "./public/js/lib/devtools"),
+      "devtools": path.join(__dirname, "../../../mozilla.org/fx-team/devtools"),
       "devtools-sham": path.join(__dirname, "./public/js/lib/devtools-sham"),
       "sdk": path.join(__dirname, "./public/js/lib/devtools-sham/sdk")
     }
